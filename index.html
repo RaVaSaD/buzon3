@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Buzon</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="shortcut icon" href="./img/default.png">
+</head>
+<body>
+  <h1 class="page-title">BUZÓN</h1>
+  <div class="buzon">
+    <div class="buzon__current">
+      <img
+        id="main-image"
+        class="buzon__current-image"
+        src="./img/default.png"
+      >
+      <h2 id="main-title" class="buzon__current-title">Dani</h2>
+      <small id="main-date" class="buzon__current-date">Tue Apr 21 2020</small>
+    </div>
+    <div class="buzon__next">
+      <p class="buzon__next-title">Próximos buzones</p>
+      <ul id="buzon-list" class="buzon__list">
+        <template id="buzon-item-template">
+          <li class="buzon__item">
+            <div class="buzon__avatar-wrapper">
+              <img class="buzon__avatar" src="{{image}}">
+            </div>
+            <p>
+              <span class="buzon__name">{{name}}</span><br>
+              <small class="buzon__date">{{date}}</small>
+            </p>
+          </li>
+        </template>
+      </ul>
+    </div>
+  </div>
+  <div class="credits">
+    <p>© Al Right Reserved <a class="none" href="https://github.com/jhdevgr">Julián Grande</a></p>
+  </div>
+  <script type="module" src="./index.js"></script>
+</body>
+</html>
