@@ -4,7 +4,7 @@ import Buzon from './buzon.js';
   const persons = [
     { name: 'Guillermo', avatar: './img/scientist-man.png' },
     { name: 'Andrés', avatar: './img/farmer-man.png' },
-    { name: 'Jorge', avatar: './img/worker-man.png' },
+    { name: 'Mónica', avatar: './img/woman-firefighter.png' },
     { name: 'Javi', avatar: './img/police-man.png' },
     { name: 'Marcos', avatar: './img/detective-man.png' },
     { name: 'Sergio', avatar: './img/teacher-man.png' },
