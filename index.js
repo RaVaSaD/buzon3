@@ -5,9 +5,9 @@ import Buzon from './buzon.js';
     { name: 'Guillermo', avatar: './img/scientist-man.png' },
     { name: 'Andrés', avatar: './img/farmer-man.png' },
     { name: 'Mónica', avatar: './img/woman-firefighter.png' },
-    { name: 'Javi', avatar: './img/police-man.png' },
+    //{ name: 'Javi', avatar: './img/police-man.png' },
     { name: 'Marcos', avatar: './img/detective-man.png' },
-    { name: 'Sergio', avatar: './img/teacher-man.png' },
+    //{ name: 'Sergio', avatar: './img/teacher-man.png' },
   ];
 
   // Iconos de https://icons8.com/icon/set/man/emoji
