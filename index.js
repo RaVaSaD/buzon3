@@ -4,9 +4,9 @@ import Buzon from './buzon.js';
   const persons = [
     { name: 'Andrés', avatar: './img/farmer-man.png' },
     { name: 'Mayte', avatar: './img/woman-firefighter.png' },
-    //{ name: 'Javi', avatar: './img/police-man.png' },
+    { name: 'Ángel', avatar: './img/police-man.png' },
     { name: 'Guillermo', avatar: './img/scientist-man.png' },
-    // { name: 'Marcos', avatar: './img/detective-man.png' },
+    { name: 'Dani', avatar: './img/detective-man.png' },
   ];
 
   // Iconos de https://icons8.com/icon/set/man/emoji
