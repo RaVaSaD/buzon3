@@ -6,7 +6,7 @@ import Buzon from './buzon.js';
     { name: 'Mayte', avatar: './img/woman-firefighter.png' },
     //{ name: 'Ángel', avatar: './img/police-man.png' },
     { name: 'Guillermo', avatar: './img/scientist-man.png' },
-    //{ name: 'Dani', avatar: './img/detective-man.png' },
+    { name: 'Mónica', avatar: './img/police-woman.png' },
   ];
 
   // Iconos de https://icons8.com/icon/set/man/emoji
